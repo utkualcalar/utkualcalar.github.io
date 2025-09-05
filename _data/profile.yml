@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Y. Utku Alcalar"
 
 positions:
-- logo: /assets/images/badges/umn.png  # Logo is optional
+- logo: /assets/images/badges/umn_square.png  # Logo is optional
   name: Research Assistant, University of Minnesota
 #- name: Position 2 without logo
 
@@ -36,13 +36,13 @@ portrait_caption: >-
 
 education:
 - name: University of Minnesota
-  logo: /assets/images/badges/umn.png
+  logo: /assets/images/badges/umn_square.png
   position: >- 
     Ph.D., Electrical and Computer Engineering <br/>
     <strong>Major:</strong> Electrical Engineering, <strong>Minor:</strong> Computer Science
   date: Aug. 2022 - present
 - name: Istanbul Technical University
-  logo: /assets/images/badges/itu.png
+  logo: /assets/images/badges/itu_square.png
   position: B.S., Electronics and Communication Engineering
   date: Aug. 2017 - Jun. 2022
 
