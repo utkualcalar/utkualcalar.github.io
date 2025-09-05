@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Y. Utku Alcalar"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- logo: /assets/images/badges/umn.png  # Logo is optional
   name: Research Assistant, University of Minnesota
 #- name: Position 2 without logo
 
@@ -35,15 +35,15 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: (Ph.D.) University of Minnesota
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: University of Minnesota
+  logo: /assets/images/badges/umn.png
   position: >- 
-    Electrical and Computer Engineering <br/>
-    Major: Electrical Engineering, Minor: Computer Science
+    Ph.D., Electrical and Computer Engineering <br/>
+    <strong>Major:</strong> Electrical Engineering, <strong>Minor:</strong> Computer Science
   date: Aug. 2022 - present
-- name: (B.S.) Istanbul Technical University
+- name: Istanbul Technical University
   logo: /assets/images/badges/PKU_red.png
-  position: Electronics and Communication Engineering
+  position: B.S., Electronics and Communication Engineering
   date: Aug. 2017 - Jun. 2022
 
 # experience:
@@ -53,9 +53,9 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Spotlight Oral at IEEE ICIP (“top papers with exceptional maturity and/or novelty”)
+  date: 2025
+- name: Summa Cum Laude merit award at ISMRM 2025 (abstracts score in the top 5%) 
+  date: 2025
+- name: ECE Department Fellowship, University of Minnesota
+  date: 2022
