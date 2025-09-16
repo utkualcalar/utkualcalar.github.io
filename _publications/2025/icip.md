@@ -7,7 +7,7 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-info">Sp
 pub_date:       "2025"
 abstract: >-
    In this work, we introduce a physics-driven deep learning (PD-DL) approach for rapid MRI reconstruction without fully sampled reference data. Our method, <strong>SPIC-SSDU</strong>, enhances self-supervised training with perturbation-based consistency checks in sparse domains, extending conventional k-space masking with a novel term that evaluates the model’s ability to predict carefully designed additive perturbations. This improves robustness at high acceleration rates, reducing artifacts and noise. Tests on the fastMRI knee and brain datasets show improved image quality over existing self-supervised techniques, achieving performance comparable to supervised learning.
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/pub_cover/ICIP_thumbnail.jpg
 authors:
 - Yasar Utku Alcalar
 - Mehmet Akcakaya
