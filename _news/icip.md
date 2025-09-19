@@ -1,4 +1,0 @@
----
-title: "2 papers accepted at <a href="https://neurips.cc/Conferences/2025" target="_blank">NeurIPS 2025 <i class="fas fa-angle-double-right"></i></a>, one as a ⭐ spotlight presentation"
-date: 2025-09-18 12:00:00 -0600
----
