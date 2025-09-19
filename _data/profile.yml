@@ -19,18 +19,14 @@ github: ualcalar17
 linkedin: yasar-utku-alcalar
 # orcid: 0000-0000-0000-0000
 
-short_bio_text_justify: false
+short_bio_text_justify: true
 short_bio: >-
   <p>
     I am a fourth-year Ph.D. student in Electrical and Computer Engineering at the University of Minnesota, advised by <a href="https://imagine.umn.edu/people/mehmet-ak%C3%A7akaya" target="_blank">Prof. Mehmet Akçakaya</a>, where I develop 
-    AI models for solving challenging imaging problems. My work spans designing new learning frameworks for reconstructing, enhancing, and generating images across both natural and medical domains.
+    AI models for solving challenging imaging problems. My work spans designing new learning frameworks for reconstructing, enhancing, and generating images across both natural and medical domains. My research has appeared at leading CV/AI venues such as NeurIPS, ECCV and ICIP, including spotlight recognitions at NeurIPS and ICIP. I also have several pending U.S. patents, have reviewed for top CV/AI conferences and journals, and have been a teaching assistant for courses on image processing and generative AI.
   </p>
   <p>
-    My research has appeared at leading CV/AI venues such as NeurIPS, ECCV and ICIP, including spotlight recognitions at NeurIPS and ICIP. 
-    I also have several pending U.S. patents, have reviewed for top CV/AI conferences and journals, and have been a teaching assistant for courses on image processing and generative AI.
-  </p>
-  <p>
-    My current research interests include generative modeling, inverse problems, text-to-image generation, and fast MRI reconstruction.
+    My current research interests include <i>generative modeling</i>, <i>inverse problems</i>, <i>text-to-image generation</i>, and <i>fast MRI reconstruction</i>.
   </p>
 
 portrait_url: /assets/images/portrait.jpg
