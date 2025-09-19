@@ -22,12 +22,15 @@ linkedin: yasar-utku-alcalar
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a fourth-year Ph.D. student in Electrical and Computer Engineering at the University of Minnesota, advised by <a href="https://imagine.umn.edu/people/mehmet-ak%C3%A7akaya" target="_blank">Prof. Mehmet Akçakaya</a>, where I develop 
+    AI models for solving challenging imaging problems. My work spans designing new learning frameworks for reconstructing, enhancing, and generating images across both natural and medical domains.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research has appeared at leading CV/AI venues such as NeurIPS, ECCV and ICIP, including spotlight recognitions at NeurIPS and ICIP. 
+    I also have several pending U.S. patents, have reviewed for top CV/AI conferences and journals, and have been a teaching assistant for courses on image processing and generative AI.
+  </p>
+  <p>
+    My current research interests include generative modeling, inverse problems, text-to-image generation, and fast MRI reconstruction.
   </p>
 
 portrait_url: /assets/images/portrait.jpg
