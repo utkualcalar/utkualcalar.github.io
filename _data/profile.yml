@@ -52,7 +52,9 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Spotlight Oral at IEEE ICIP (“top papers with exceptional maturity and/or novelty”)
+- name: Spotlight at NeurIPS
+  date: 2025
+- name: Spotlight Oral at ICIP (“top papers with exceptional maturity and/or novelty”)
   date: 2025
 - name: Summa Cum Laude merit award at ISMRM 2025 (abstracts score in the top 5%) 
   date: 2025
