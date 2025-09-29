@@ -52,6 +52,8 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
+- name: Best paper finalist at IEEE CAMSAP
+  date: 2025
 - name: Spotlight at NeurIPS
   date: 2025
 - name: Spotlight Oral at ICIP (“top papers with exceptional maturity and/or novelty”)
