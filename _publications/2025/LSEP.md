@@ -14,5 +14,5 @@ authors:
   - Yasar Utku Alcalar
   - Mehmet Akcakaya
 links:
-  Paper: https://arxiv.org/abs/2509.21565
+  Paper: https://arxiv.org/pdf/2509.21565
 ---
