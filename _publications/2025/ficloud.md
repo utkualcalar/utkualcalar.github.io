@@ -14,5 +14,5 @@ authors:
 - Yu Cao
 - Mehmet Akcakaya
 links:
-  Paper: https://arxiv.org/abs/2506.03183
+  Paper: https://arxiv.org/pdf/2506.03183
 ---
