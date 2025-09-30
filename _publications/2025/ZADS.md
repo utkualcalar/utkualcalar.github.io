@@ -3,7 +3,7 @@ title:          "Automated Tuning for Diffusion Inverse Problem Solvers without 
 date:           2025-9-22 00:01:00 +0800
 selected:       false
 pub:            "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-info">Best Paper Finalist</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">Best Paper Finalist</span>'
 pub_date:       "2025"
 abstract: >-
    We propose Zero-shot Adaptive Diffusion Sampling (<strong>ZADS</strong>), a self-supervised test-time optimization framework that adaptively tunes data fidelity weights at irregular timesteps without retraining.
