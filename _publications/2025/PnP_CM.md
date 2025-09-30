@@ -12,6 +12,6 @@ authors:
   - Merve Gulle*
   - Junno Yun*
   - Mehmet Akcakaya
-#links:
-  #Paper: https://arxiv.org/pdf/2411.13022
+links:
+  Paper: https://arxiv.org/pdf/2509.22736
 ---
