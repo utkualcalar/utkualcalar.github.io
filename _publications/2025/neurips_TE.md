@@ -13,6 +13,6 @@ authors:
   - Junno Yun
   - Yasar Utku Alcalar
   - Mehmet Akcakaya
-#links:
-  #Paper: https://arxiv.org/pdf/2411.13022
+links:
+  Paper: https://arxiv.org/pdf/2510.16321
 ---
