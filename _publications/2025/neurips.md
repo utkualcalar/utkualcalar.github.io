@@ -1,5 +1,5 @@
 ---
-title:          "Fast MRI for All: Bridging Equity Gaps via Training without Raw Data Access"
+title:          "Fast MRI for All: Bridging Access Gaps by Training without Raw Data"
 date:           2025-09-20 00:01:00 +0800
 selected:       true
 pub:            "Neural Information Processing Systems (NeurIPS)"
