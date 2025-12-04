@@ -14,4 +14,5 @@ authors:
   - Mehmet Akcakaya
 links:
   Paper: https://arxiv.org/pdf/2411.13022
+  Code: https://github.com/ualcalar17/CUPID
 ---
