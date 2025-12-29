@@ -1,6 +1,6 @@
 ---
 title:          "Consistency Models as Plug-and-Play Priors for Inverse Problems"
-date:           2025-09-27 00:01:00 +0800
+date:           Preprint-09-27 00:01:00 +0800
 selected:       false
 pub:            "arXiv preprint"
 abstract: >-
