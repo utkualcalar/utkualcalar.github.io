@@ -1,6 +1,6 @@
 ---
 title:          "No Alignment Needed for Generation: Learning Linearly Separable Representations in Diffusion Models"
-date:           2025-09-27 00:00:45 +0800
+date:           2025-12-30 00:00:45 +0800
 selected:       false
 pub:            "arXiv preprint"
 pub_date:       "2025"
