@@ -1,30 +1,59 @@
----
-layout: default
-title : Homepage
-navbar_title: Home
----
-{% include widgets/profile_card.html %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Y. Utku Alcalar — generative modeling, inverse problems, and computational imaging.">
+  <title>Y. Utku Alcalar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script defer src="data/site.js"></script>
+  <script defer src="publications/publications.js"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body>
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container"><a id="brand" href="#">Y. Utku Alcalar</a><a href="#">Home</a></div>
+  </nav>
+  <main class="container">
+    <section class="card profile" aria-labelledby="name">
+      <img id="portrait" class="portrait" alt="Portrait of Y. Utku Alcalar" width="160" height="200">
+      <h1 id="name"></h1>
+      <div id="bio" class="bio"></div>
+      <p><a id="cv" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> Curriculum Vitae</a></p>
+      <div id="profile-links" class="profile-links"></div>
+    </section>
 
-{% include widgets/debug_repo_name.html %}
+    <section id="news-section" class="card news" aria-labelledby="news-heading">
+      <h2 id="news-heading" class="card-heading"><i class="fas fa-rss" aria-hidden="true"></i> News</h2>
+      <div id="news"></div>
+    </section>
 
-{% include widgets/debug_url.html %}
+    <section id="background" class="card background" aria-label="Academic background">
+      <div class="columns">
+        <section id="experience-section"><h2><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</h2><div id="experience" class="background-list"></div></section>
+        <section id="education-section"><h2><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h2><div id="education" class="background-list"></div></section>
+      </div>
+      <section id="awards-section" class="divided"><h2><i class="fas fa-award" aria-hidden="true"></i> Honors &amp; Awards</h2><div id="awards" class="awards"></div></section>
+      <div class="columns divided">
+        <section id="teaching-section"><h2><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i> Teaching</h2><div id="teaching"></div></section>
+        <section id="service-section"><h2><i class="fas fa-user-check" aria-hidden="true"></i> Academic Service</h2><div id="service"></div></section>
+      </div>
+    </section>
 
-{% if site.data.display.homepage.show_experience %}
-    {% include widgets/experience_card.html %}
-{% endif %}
-
-{% if site.data.display.homepage.show_news %}
-    {% assign count_news = site.news | size %}
-    {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-    {% endif %}
-{% endif %}
-
-{% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-    {% 
-        include widgets/publication_card.html 
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-    %}
-{% endif %}
+    <section id="publications-section" class="card publications" aria-labelledby="publications-heading">
+      <header id="publications" class="publication-header">
+        <div><h2 id="publications-heading"><i class="fas fa-book-open" aria-hidden="true"></i> Publications</h2><p>Selected work is shown by default. Switch to All for a compact bibliography.</p></div>
+        <div class="publication-toggle" role="group" aria-label="Publication view">
+          <button type="button" class="active" data-view="selected" aria-pressed="true" aria-controls="selected-publications">Selected</button>
+          <button type="button" data-view="all" aria-pressed="false" aria-controls="all-publications">All <span id="publication-count"></span></button>
+        </div>
+      </header>
+      <div id="selected-publications"></div>
+      <div id="all-publications" hidden></div>
+    </section>
+    <noscript><p>Please enable JavaScript to display this site's content.</p></noscript>
+  </main>
+  <footer class="container" id="footer"></footer>
+</body>
+</html>
