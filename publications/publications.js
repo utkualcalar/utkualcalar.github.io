@@ -17,7 +17,7 @@ const publications = [
     "selected": false,
     "summary": " ",
     "links": {
-      "Paper": " ",
+      "Paper": "https://arxiv.org/pdf/2608.18036",
     }
   },
   {
@@ -35,23 +35,6 @@ const publications = [
     "links": {
       "Paper": "https://arxiv.org/pdf/2608.01298",
       "Code": "https://github.com/JN-Yun/UDT"
-    }
-  },
-  {
-    "title": "A Geometric Regularization Strategy for Efficient Training of Diffusion Models without Visual Encoders",
-    "year": 2026,
-    "venue": "arXiv",
-    "authors": [
-      "Junno Yun",
-      "Yasar Utku Alcalar",
-      "Mehmet Akcakaya"
-    ],
-    "selected": false,
-    "highlight": "",
-    "summary": "Encoder-free geometric regularization that improves the training efficiency and representation quality of flow-based diffusion transformers without external visual encoders.",
-    "links": {
-      "Paper": "https://arxiv.org/pdf/2509.21565",
-      "Code": "https://github.com/JN-Yun/LSEP"
     }
   },
   {
@@ -87,6 +70,23 @@ const publications = [
     "links": {
       "Paper": "https://arxiv.org/pdf/2509.22736",
       "Code": "https://github.com/MerveGulle/PnP-CM"
+    }
+  },
+  {
+    "title": "No Alignment Needed for Generation: Learning Linearly Separable Representations in Diffusion Models",
+    "year": 2025,
+    "venue": "arXiv",
+    "authors": [
+      "Junno Yun",
+      "Yasar Utku Alcalar",
+      "Mehmet Akcakaya"
+    ],
+    "selected": false,
+    "highlight": "",
+    "summary": "Encoder-free geometric regularization that improves the training efficiency and representation quality of flow-based diffusion transformers without external visual encoders.",
+    "links": {
+      "Paper": "https://arxiv.org/pdf/2509.21565",
+      "Code": "https://github.com/JN-Yun/LSEP"
     }
   },
   {
